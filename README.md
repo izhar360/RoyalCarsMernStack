@@ -22,7 +22,7 @@ If you are logged in as an admin a button in navbar will show up which gives you
 Add products and users to database:
 - cd backend
 - node seeder
-- 
+
 if you want to auto delete all database data:
 
 - cd backend
