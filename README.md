@@ -14,16 +14,15 @@ step 2:
 (cd backend)
 npm i
 
-step 3: (add products and users to database)
-
-- cd backend
-- node seeder
-
-step 4:
+step 3:
 npm run dev
 
 If you are logged in as an admin a button in navbar will show up which gives you controll on your products,users i.e add new product
 
+Add products and users to database:
+- cd backend
+- node seeder
+- 
 if you want to auto delete all database data:
 
 - cd backend
