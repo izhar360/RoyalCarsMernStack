@@ -1,8 +1,7 @@
 import mongose from "mongoose";
 
 // a mongoose stuf (mongoose.connect ....) return always a promise
-
-const URL = `mongodb+srv://mubeen:mubeen@cluster0.eqz6t.mongodb.net/test`;
+const URL = `mongodb://localhost:27017`;
 const connectDB = async () => {
   try {
     const conn = await mongose.connect(URL, {
