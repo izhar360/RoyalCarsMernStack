@@ -11,7 +11,7 @@ step 1:
 npm i
 
 step 2:
-cd backend
+(cd backend)
 npm i
 
 step 3: (add products and users to database)
